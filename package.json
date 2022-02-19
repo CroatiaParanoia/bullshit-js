@@ -4,6 +4,9 @@
   "description": "",
   "main": "lib/index.esm.js",
   "types": "lib/index.d.ts",
+  "files": [
+    "./lib"
+  ],
   "scripts": {
     "start": "rollup -c -w",
     "build": "rollup -c"
