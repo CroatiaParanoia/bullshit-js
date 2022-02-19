@@ -1,9 +1,9 @@
 {
-  "name": "bullshit",
+  "name": "bullshit-js",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.esm.js",
-  "types": "lib/index.d.ts",
+  "types": "lib/types/index.d.ts",
   "files": [
     "./lib"
   ],
