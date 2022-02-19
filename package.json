@@ -2,9 +2,9 @@
   "name": "bullshit",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.esm.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "rollup -c -w",
     "build": "rollup -c"
   },
@@ -12,8 +12,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-run": "^2.1.0",
     "@rollup/plugin-typescript": "^8.3.0",
+    "@types/node": "^17.0.18",
     "rollup": "^2.67.2",
     "ts-node": "^10.5.0",
     "tslib": "^2.3.1",
